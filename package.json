@@ -2,12 +2,13 @@
   "name": "nwjs-react-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "config/start.ts",
   "scripts": {
     "start": "node config/server.js",
     "dev": "node config/server.js",
     "build": "node config/build.js",
-    "dist": "build.bat"
+    "dist": "build.bat",
+    "start-dev": "nodemon --config \"./util/nodemon.json\"/"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/meticoeus/nwjs-react-boilerplate#readme",
   "devDependencies": {
+    "@types/node": "^13.1.6",
     "autoprefixer": "^7.1.1",
     "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.24.1",
@@ -58,6 +60,7 @@
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
     "node-sass": "^4.5.3",
+    "nodemon": "^2.0.2",
     "nw": "^0.32.4",
     "nwjs-builder-phoenix": "^1.14.8",
     "ora": "^1.2.0",
@@ -70,6 +73,8 @@
     "style-loader": "^0.17.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^5.20.1",
     "url-loader": "^0.5.8",
     "webpack": "^2.5.1",
     "webpack-dev-middleware": "^1.10.2",

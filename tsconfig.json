@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    // "typeRoots": [
+    //   "node_modules/@types"
+    // ],
+    // "types": [
+    //   "node"
+    // ],
+  },
+  "exclude": [
+    ".dev_client",
+    "node_modules"
+  ],
+}

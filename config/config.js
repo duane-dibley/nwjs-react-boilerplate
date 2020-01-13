@@ -10,8 +10,8 @@ const PATH_CONFIG = {
 };
 
 const RESOLVE_CONFIG = {
-  EXTENSIONS: ['.js', '.json'],    //webpck extensions
-  ALIAS: {}                          //webpck alias
+  EXTENSIONS: ['.js', '.json', 'ts', 'tsx'],    //webpck extensions
+  ALIAS: {}                        //webpck alias
 };
 
 module.exports = {

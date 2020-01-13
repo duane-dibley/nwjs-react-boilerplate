@@ -1,0 +1,9 @@
+{
+  "watch": ["config"],
+  "ext": "ts",
+  "ignore": ["src/js"],
+  "exec": "set NODE_ENV=development& ts-node config/start.ts",
+  "execMap": {
+    "ts": "ts-node"
+  }
+}

@@ -61,6 +61,14 @@ module.exports = {
         ],
         exclude: /node_modules/
       }, {
+        test: /\.tsx?$/,
+        use: [
+          {
+            loader: 'ts-loader'
+          }
+        ],
+        exclude: /node_modules/
+      }, {
         test: /\.html$/,
         loader: 'html-loader',
         exclude: new RegExp(`${PATH_CONFIG.MAIN}/index.html`)
