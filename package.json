@@ -59,7 +59,7 @@
     "json-loader": "^0.5.4",
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.2",
     "nw": "^0.32.4",
     "nwjs-builder-phoenix": "^1.14.8",
